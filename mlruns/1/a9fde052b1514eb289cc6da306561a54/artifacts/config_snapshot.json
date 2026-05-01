@@ -1,0 +1,8 @@
+{
+  "model_type": "LinearRegression",
+  "test_size": 0.2,
+  "random_state": 42,
+  "handle_missing": "median",
+  "scale_features": true,
+  "features_to_drop": []
+}

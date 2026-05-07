@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 import pytest
-from src.train import load_and_prepare_data
+#from src.train import load_and_prepare_data
+from src.preprocessing import load_and_prepare_data
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))

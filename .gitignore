@@ -6,6 +6,7 @@ __pycache__/
 # Environment
 .env
 venv/
+.venv/
 
 # MLflow
 mlruns/
@@ -19,5 +20,35 @@ build/
 dist/
 *.egg-info/
 
+# Dataset files
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+
+# Model artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
 # OS
 .DS_Store
+Thumbs.db
